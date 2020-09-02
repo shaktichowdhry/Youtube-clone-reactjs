@@ -1,0 +1,26 @@
+.sidebar {
+    flex: 16%;
+    /* 20 percent */
+    background-color: #282828;
+}
+
+.sidebar>hr {
+    height: 1px;
+    border: 0;
+    background-color: gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sidebar__heading {
+    padding: 10px 20px;
+    color: rgb(168, 168, 168);
+    font-size: 14px;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 13px;
+    color: gray;
+    padding-top: 10px;
+}

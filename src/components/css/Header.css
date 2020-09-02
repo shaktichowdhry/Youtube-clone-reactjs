@@ -1,0 +1,92 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #282828;
+    /* on top while scroll */
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo-content {
+    position: relative;
+}
+
+.header__logo {
+    height: 30px;
+    /* used for images */
+    object-fit: contain;
+    padding-left: 10px;
+    cursor: pointer;
+    /* To hide line */
+    border-radius: 100%;
+}
+
+.country-code {
+    color: #ada7a7;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 12px;
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
+}
+
+.header__menuIcon {
+    padding-left: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.header__input {
+    display: flex;
+    height: 30px;
+    align-items: center;
+    width: 40%;
+    border: 1px solid #3f3d3d;
+    padding: 0;
+    background-color: black;
+    border-radius: 2px;
+}
+
+.header__input>input {
+    flex: 1;
+    padding: 0;
+    padding-left: 10px;
+    height: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.header__input>input:focus {
+    color: white;
+}
+
+.header__inputButton {
+    /* !important is used for overriding the styles */
+    width: 50px !important;
+    background: #3f3d3d;
+    border: 3px solid #3f3d3d;
+    color: #696969;
+    padding-left: 0;
+    cursor: pointer;
+}
+
+.header__icons {
+    display: flex;
+    align-items: center;
+}
+
+.header__icon {
+    margin-right: 20px;
+    color: white;
+    cursor: pointer;
+}
